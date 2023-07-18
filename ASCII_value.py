@@ -5,7 +5,6 @@ def transform_string(s):
 
     for i in range(length):
         ascii_val = ord(s[i])  
-
         if ascii_val % 2 == 0:  
             if i < length - 1 and not transformed_string[i+1].isdigit():
                 next_ascii_val = (ascii_val % 7) + ord(s[i+1]) 
@@ -23,7 +22,6 @@ def transform_string(s):
 
     transformed_string = "".join(transformed_string)
     return transformed_string, "-".join(ascii_values)
-
 
 # Example usage
 s = "sHQen}"
