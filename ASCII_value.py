@@ -19,7 +19,6 @@ def transform_string(s):
                 transformed_string[i - 1] = chr(prev_ascii_val)
 
         ascii_values.append(str(ascii_val))
-
     transformed_string = "".join(transformed_string)
     return transformed_string, "-".join(ascii_values)
 
