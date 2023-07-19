@@ -22,6 +22,7 @@ def transform_string(s):
 
     transformed_string = "".join(transformed_string)
     return transformed_string, "-".join(ascii_values)
+
 s = input("Enter a string: ")
 transformed_string, ascii_values = transform_string(s)
 print("Input string:", s)
