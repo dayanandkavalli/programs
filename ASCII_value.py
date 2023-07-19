@@ -2,7 +2,6 @@ def transform_string(s):
     ascii_values = []
     transformed_string = list(s)
     length = len(s)
-
     for i in range(length):
         ascii_val = ord(s[i])  
 
